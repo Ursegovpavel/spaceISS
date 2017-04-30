@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/VRTK/Examples/MKS_Vnutri.unity
+- path: Assets/MKS_Vnutri.unity
   isLoaded: 1
   isActive: 1

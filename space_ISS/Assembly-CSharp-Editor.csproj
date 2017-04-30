@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5ECF1DD0-3D76-A542-1479-79E12C2B051B}</ProjectGuid>
+    <ProjectGuid>{36644B9E-5F47-27B7-8033-DF38295C5259}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -77,6 +77,9 @@
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
      <None Include="Assets\cвет ламп.compute" />
      <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>C:/Users/usr10162/Desktop/Project/spaceISS/space_ISS/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -134,7 +137,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{11F24B9C-7DC2-636C-CA7E-0FF2350BD162}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{58D65897-2593-FC79-40A0-33653F53BAD8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,5 +1,6 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: getPlatforms
+<<<<<<< HEAD
 Cmd: compileCompute
   error: 2 plat 4 at ;0<?.compute(6): unrecognized identifier 'Shader'
   error: 1 plat 4 at ;0<?.compute(21): 'surface' : unknown pragma ignored
@@ -8,3 +9,5 @@ Cmd: compileCompute
   error: 2 plat 4 at ;0<?.compute(6): unrecognized identifier 'Shader'
   error: 1 plat 4 at ;0<?.compute(21): 'surface' : unknown pragma ignored
   api=4 insize=1063 outsize=0 ok=0
+=======
+>>>>>>> 894c45e17b5b9f5054ee95976975085b0492f647
