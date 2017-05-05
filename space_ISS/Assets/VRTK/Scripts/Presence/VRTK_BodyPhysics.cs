@@ -608,6 +608,7 @@ namespace VRTK
                 generateRigidbody = true;
                 bodyRigidbody = playArea.gameObject.AddComponent<Rigidbody>();
                 bodyRigidbody.mass = 90f;
+                //bodyRigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
                 bodyRigidbody.freezeRotation = true;
                 bodyRigidbody.useGravity = false;
             }

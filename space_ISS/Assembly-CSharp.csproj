@@ -47,6 +47,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\NextLvl.cs" />
+     <Compile Include="Assets\RuchkiScripts\MyTouchpad.cs" />
+     <Compile Include="Assets\RuchkiScripts\VRTK_ClimbableGrabAttach.cs" />
+     <Compile Include="Assets\RuchkiScripts\VRTK_InteractableObject.cs" />
+     <Compile Include="Assets\RuchkiScripts\VRTK_SwapControllerGrabAction.cs" />
      <Compile Include="Assets\Stagit\SkyboxEarthPlanets\script\skyboxspace_demo_v1.cs" />
      <Compile Include="Assets\Stagit\SkyboxEarthPlanets\script\skyboxspace_mouselook_v1.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
@@ -260,7 +264,6 @@
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_BaseGrabAttach.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_BaseJointGrabAttach.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_ChildOfControllerGrabAttach.cs" />
-     <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_ClimbableGrabAttach.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_CustomJointGrabAttach.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_FixedJointGrabAttach.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\GrabAttachMechanics\VRTK_RotatorTrackGrabAttach.cs" />
@@ -273,7 +276,6 @@
      <Compile Include="Assets\VRTK\Scripts\Interactions\SecondaryControllerGrabActions\VRTK_AxisScaleGrabAction.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\SecondaryControllerGrabActions\VRTK_BaseGrabAction.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\SecondaryControllerGrabActions\VRTK_ControlDirectionGrabAction.cs" />
-     <Compile Include="Assets\VRTK\Scripts\Interactions\SecondaryControllerGrabActions\VRTK_SwapControllerGrabAction.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_ControllerActions.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_ControllerEvents.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_InteractControllerAppearance.cs" />
@@ -281,7 +283,6 @@
      <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_InteractHaptics.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_InteractTouch.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_InteractUse.cs" />
-     <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_InteractableObject.cs" />
      <Compile Include="Assets\VRTK\Scripts\Interactions\VRTK_ObjectAutoGrab.cs" />
      <Compile Include="Assets\VRTK\Scripts\Internal\VRTK_ControllerTracker.cs" />
      <Compile Include="Assets\VRTK\Scripts\Internal\VRTK_CurveGenerator.cs" />
